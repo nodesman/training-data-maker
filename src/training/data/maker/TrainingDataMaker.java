@@ -91,7 +91,7 @@ public class TrainingDataMaker {
                 {
                     System.out.println("Error occured");
                     Logger.getLogger(TrainingDataMaker.class.getName()).log(Level.SEVERE, null, ex);
-                    return;
+                    continue;
                 }
 
 

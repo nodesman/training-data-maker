@@ -1,4 +1,6 @@
-training-data-maker
+Training Data Maker
 ===================
 
-Application that take a file containing a list of URLs which needs to be downloaded, it&#39;s HTML stripped and placed in a specified directory. 
+I created this application to make creating train data for a machine learning application easier. The application needed to be trained to classify websites into one of many categories based on the text in the page. 
+
+The trainer needed to be fed some textual content for data in each category. 
