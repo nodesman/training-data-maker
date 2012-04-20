@@ -94,9 +94,6 @@ public class TrainingDataMaker {
                     return;
                 }
 
-                BufferedReader contentreader=null;
-                contentreader = new BufferedReader(new InputStreamReader(response.getEntity().getContent()));
-
 
                 code = EntityUtils.toString(response.getEntity());
 
